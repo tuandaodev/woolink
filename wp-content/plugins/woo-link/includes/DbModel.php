@@ -9,14 +9,12 @@ require_once('function.php');
 class DbModel {
 
     private $prefix;
-    private $db_name;
 
     public function __construct() {
         $this->link = mysqli_connect(DB_HOST, DB_USER, DB_PASSWORD, DB_NAME);
         mysqli_set_charset($this->link, "utf8");
         global $wpdb;
-        $this->db_name = $wpdb->base_prefix . SAPO_IP_CUSTOMER;
-    
+        $this->prefix = $wpdb->base_prefix;
     }
     
     public function query($query) {
@@ -31,44 +29,34 @@ class DbModel {
         return $return;
     }
     
-    public function check_ip($ip) {
-        
-        if (!$ip) {
-            return false;
-        } else {
-            $ip = trim($ip);
-        }
-        
-        $query = "  SELECT *
-                    FROM {$this->db_name}
-                    WHERE ip = '" . $ip . "'
-                    ORDER BY id DESC
-                    LIMIT 1";
+    public function get_previous_products($product_id, $cat_ids) {
+        if (!$cat_ids) return [];
+        $cat_ids = implode(",", $cat_ids);
+        $query = "  Select p.ID, p.post_title
+                    FROM {$this->prefix}posts p
+                    INNER JOIN {$this->prefix}term_relationships
+                            ON {$this->prefix}term_relationships.object_id = p.ID
+                    INNER JOIN {$this->prefix}term_taxonomy
+                            ON {$this->prefix}term_relationships.term_taxonomy_id = {$this->prefix}term_taxonomy.term_taxonomy_id
+                            AND {$this->prefix}term_taxonomy.taxonomy = 'product_cat'
+                    Where post_type = 'product'
+                    AND p.ID < $product_id
+                    AND {$this->prefix}term_relationships.term_taxonomy_id IN ($cat_ids)
+                    GROUP BY p.ID
+                    ORDER BY p.ID DESC
+                    LIMIT 3";
 		
         $result = mysqli_query($this->link, $query);
-        
         if ($result) {
             $return = mysqli_fetch_all($result, MYSQLI_ASSOC);
-            
             if ($return) {
-                return $return[0];
+                return $return;
             } else {
                 return [];
             }
         } else {
             return [];
         }
-    }
-
-    public function insert_ip($ip) {
-        $ip = trim($ip);
-        $query = '  INSERT INTO ' . $this->db_name . '(ip, created)
-                        VALUES (
-                        "' . $ip . '",
-                        "' . date('Y-m-d H:i:s') . '")';
-        
-        $result = mysqli_query($this->link, $query);
-        return $result;
     }
 }
 

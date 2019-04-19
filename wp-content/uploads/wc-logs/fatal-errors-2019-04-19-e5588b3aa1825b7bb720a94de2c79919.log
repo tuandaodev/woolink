@@ -1,0 +1,8 @@
+2019-04-19T19:15:05+00:00 CRITICAL Call to a member function get_id() on string in C:\xampp\htdocs\woolink\wp-content\themes\storefront\header.php on line 59
+
+2019-04-19T19:18:17+00:00 CRITICAL Call to a member function get_category_ids() on string in C:\xampp\htdocs\woolink\wp-content\themes\storefront\header.php on line 61
+
+2019-04-19T19:20:31+00:00 CRITICAL Call to a member function get_category_ids() on string in C:\xampp\htdocs\woolink\wp-content\themes\storefront\header.php on line 61
+
+2019-04-19T19:36:00+00:00 CRITICAL Call to undefined function get_product_category() in C:\xampp\htdocs\woolink\wp-content\plugins\woo-link\includes\function.php on line 35
+

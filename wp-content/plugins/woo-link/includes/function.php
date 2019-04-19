@@ -24,6 +24,39 @@ function write_logs($file_name = '', $text = '') {
     
     fwrite($file, $body);
     fclose($file);
-    
 }
 
+function fnc_link_to_previous_products( $content ) {
+    if (is_product()) {
+        global $product;
+        $categories = wp_get_object_terms( $product->id, 'product_cat');
+        if (!$categories) return $content;
+        
+        $cat_ids = [];
+        foreach( $categories as $category ){
+          $children = get_categories( array ('taxonomy' => 'product_cat', 'parent' => $category->term_id ));
+          if ( count($children) == 0 ) {
+                $cat_ids[] = $category->term_id;
+            }
+        }
+        
+        if (!$cat_ids) return $content;
+        
+        $DbModel = new DbModel();
+        $previous_products = $DbModel->get_previous_products($product->id, $cat_ids);
+        
+        if (!$previous_products) return $content;
+        
+        $custom_content .= '<span class="previous_product">See also:</span>';
+        
+        foreach ($previous_products as $previous_prod) {
+            $url = get_permalink( $previous_prod['ID'] ) ;
+            $custom_content .= '<a class="previous_product" href="'. $url .'">'. $previous_prod['post_title'] .'</a>'; 
+        }
+        
+        $content .= $custom_content;
+        return $content;
+    }
+}
+
+add_filter( 'the_content', 'fnc_link_to_previous_products' );

@@ -1,0 +1,9 @@
+a.previous_product {
+    display: block;
+    font-weight: bold;
+    margin-left: 25px;
+}
+span.previous_product {
+    font-weight: bold;
+    color: #00f;
+}
