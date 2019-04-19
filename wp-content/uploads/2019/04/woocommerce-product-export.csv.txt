@@ -1,0 +1,99 @@
+"post_title","post_name","ID","post_excerpt","post_content","post_status","menu_order","post_date","post_author","comment_status","sku","downloadable","virtual","stock","regular_price","sale_price","weight","length","width","height","tax_class","visibility","stock_status","backorders","manage_stock","tax_status","upsell_ids","crosssell_ids","featured","sale_price_dates_from","sale_price_dates_to","download_limit","download_expiry","product_url","button_text","sold_individually","low_stock_amount","images","downloadable_files","tax:product_type","tax:product_visibility","tax:product_cat","tax:product_tag","tax:product_shipping_class"
+"Product 1","san-pham-1","11","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:14:16","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 2 (Copy)","product-1-copy","12","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:19:17","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 3 (Copy)","product-1-copy-2","13","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:19:36","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 4 (Copy)","product-1-copy-4-2","14","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:20:07","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 5 (Copy)","product-1-copy-4","15","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:20:19","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 6 (Copy)","product-6-copy","16","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:20:33","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT 2","",""
+"Product 7 (Copy)","product-7-copy","17","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:21:52","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT 2","",""
+"Product 8 (Copy)","product-8-copy","18","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:22:11","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT 2","",""
+"Product 9 (Copy) Mẫu 2","product-9-copy","19","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy
+
+See also:<a href=""http://cheapjerseyscna.com/product/product-8-copy/""><strong>Product 8 (Copy)</strong></a>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-7-copy/"">                  Product 7 (Copy)</a></strong>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-6-copy/"">                  Product 6 (Copy)</a></strong>","publish","0","2019-04-16 03:22:25","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT 2","",""
+"Product 11 (Copy)","product-11-copy","20","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:22:38","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 10 (Copy)","product-10-copy","21","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:22:56","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 12 (Copy)","product-12-copy","22","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:23:05","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 13 (Copy)","product-13-copy","23","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:23:20","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 14 (Copy)","product-14-copy","24","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:23:43","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 16 (Copy)","product-16-copy","25","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:23:57","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 17 (Copy)","product-17-copy","26","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy
+function wp_cats_posts() {
+// Default arguments
+$args = array(
+'posts_per_page' => 4, // How many items to display
+'post__not_in' => array( get_the_ID() ), // Exclude current post
+'no_found_rows' => true, // We don't ned pagination so this speeds up the query
+);
+// Check for current post category and add tax_query to the query arguments
+$cats = wp_get_post_terms( get_the_ID(), 'category' ); 
+$cats_ids = array(); 
+foreach( $cats as $wpex_related_cat ) {
+$cats_ids[] = $wpex_related_cat->term_id; 
+}
+if ( ! empty( $cats_ids ) ) {
+$args['category__in'] = $cats_ids;
+}
+// Query posts
+$wpex_query = new wp_query( $args );
+if ( $wpex_query->have_posts() ) {
+$string .= '<ul>';
+while ( $wpex_query->have_posts() ) {
+$wpex_query->the_post();
+$string .= '<li><a href=""'. get_permalink() .'"">'. get_the_title() .'</a></li>';
+}
+$string .= '</ul>';
+/* Restore original Post Data */
+wp_reset_postdata();
+} else {
+$string .= 'no posts found';
+}
+return $string;
+}
+add_shortcode('wp-cats-posts','wp_cats_posts');
+add_filter('widget_text', 'do_shortcode');
+//Insert ads after first paragraph of single post content.
+add_filter( 'the_content', 'prefix_insert_post_ads' );
+function prefix_insert_post_ads( $content ) {
+$ad_code = '<div class=""see-also""><p>See also:</p>[wp-cats-posts]</div>';
+if ( is_single() && ! is_admin() ) {
+return prefix_insert_after_paragraph( $ad_code, 3, $content );
+}
+return $content;
+}
+// Parent Function that makes the magic happen
+function prefix_insert_after_paragraph( $insertion, $paragraph_id, $content ) {
+$closing_p = '</p>';
+$paragraphs = explode( $closing_p, $content );
+foreach ($paragraphs as $index => $paragraph) {
+if ( trim( $paragraph ) ) {
+$paragraphs[$index] .= $closing_p;
+}
+if ( $paragraph_id == $index + 1 ) {
+$paragraphs[$index] .= $insertion;
+}
+}
+return implode( '', $paragraphs );
+}","publish","0","2019-04-16 03:24:10","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 18 (Copy)","product-18-copy","27","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy","publish","0","2019-04-16 03:24:19","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 19 (Copy)","product-19-copy","28","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy
+
+See also:<a href=""http://cheapjerseyscna.com/product/product-18-copy/""><strong>Product 18 (Copy)</strong></a>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-17-copy/"">                  Product 17 (Copy)</a></strong>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-16-copy/"">                  Product 16 (Copy)</a></strong>
+
+&nbsp;","publish","0","2019-04-16 03:24:27","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
+"Product 20 (Copy) Mẫu","product-20-copy","29","","I Love Baltimore Ravens NFL football shirt. We have Groot, a character from the Guardians of the Galaxy
+
+See also:<a href=""http://cheapjerseyscna.com/product/product-19-copy/""><strong>Product 19 (Copy)</strong></a>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-18-copy/"">                  Product 18 (Copy)</a></strong>
+
+<strong><a class=""row-title"" href=""http://cheapjerseyscna.com/product/product-17-copy/"">                  Product 17 (Copy)</a></strong>
+
+&nbsp;","publish","0","2019-04-16 03:24:34","1","open","","no","no","","","","","","","","","","instock","no","no","taxable","","","","","","-1","-1","","","no","","","","simple","","CAT1","",""
