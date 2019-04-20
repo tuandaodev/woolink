@@ -40,12 +40,11 @@ class DbModel {
                             ON {$this->prefix}term_relationships.term_taxonomy_id = {$this->prefix}term_taxonomy.term_taxonomy_id
                             AND {$this->prefix}term_taxonomy.taxonomy = 'product_cat'
                     Where post_type = 'product'
-                    AND p.ID < $product_id
+                    AND p.ID > $product_id
                     AND {$this->prefix}term_relationships.term_taxonomy_id IN ($cat_ids)
                     GROUP BY p.ID
-                    ORDER BY p.ID DESC
+                    ORDER BY p.ID ASC
                     LIMIT 3";
-		
         $result = mysqli_query($this->link, $query);
         if ($result) {
             $return = mysqli_fetch_all($result, MYSQLI_ASSOC);
